@@ -1,0 +1,43 @@
+body{
+    background-color: blue;
+    background-image: url("space.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    text-align: center;
+    
+}
+
+#Title{
+    color: rgb(199, 199, 199);
+    
+}
+
+#subtext{
+    color: rgb(161, 161, 161);
+    transition: 1s;
+    
+}
+
+#issMap { 
+    width: 80%;
+    height: 50%; 
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.63);
+    left: 10%;
+}
+
+#box{
+    position: relative;
+    width:80%;
+    height: 30vh;
+    background-color: rgba(255, 255, 255, 0);
+    left: 10%;
+    
+
+}
+#time{
+    color: rgb(255, 0, 0);
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.644);
+    position: relative;
+    bottom: 60px;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+    integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+    crossorigin=""/>
+
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+   integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+   crossorigin=""></script>
+   
+   <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+  
+ 
+    
+  
+</head>
+<body>
+    
+
+  
+
+
+    <div id="box">
+        <h1 id="Title">Where the ISS API</h1>
+        <p id="subtext"> <span >The latitude:</span> <span id="lat"></span><br> 
+        The longitude: <span id="lon"></span><br>
+        The velocity in miles: <span id="velocity"></span><br>
+        The visibility is : <span id="visibility"></span><br></p>
+
+    </div>
+    <h2 id="time">Real Time Data is updated every 5 seconds</h2>
+    
+<br>
+
+<div id="issMap"></div>
+
+    <script src="main.js"></script>
+</body>
+</html>
